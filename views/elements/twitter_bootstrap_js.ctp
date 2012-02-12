@@ -1,6 +1,10 @@
 	<script type="text/javascript" src="/twitter_bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-        $("#flashMessage").addClass("alert");
+        if ($("#flashMessage").exists()) {
+            $("#flashMessage").addClass("alert");
+            $("#flashMessage:contains('deleted')").addClass("alert-error");
+            $("#flashMessage:contains('saved')").addClass("alert-success");
+        }
     });
     </script>
