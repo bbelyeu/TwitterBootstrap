@@ -10,7 +10,16 @@
         $("div.actions").addClass("well");
         $("div.actions > h3").hide();
         $("div.actions > ul").addClass("nav nav-list");
+        $("div.actions > ul > li > a:contains('New')").prepend('<i class="icon-plus"></i>');
+        $("div.actions > ul > li > a:contains('List')").prepend('<i class="icon-th-list"></i>');
         $("div.actions > ul").prepend('<li class="nav-header">Actions</li>');
+
+        // Alter the cake default pagination
+        $("div.paging span.disabled").wrapInner('<a />');
+        $("div.paging span.current").addClass('active').wrapInner('<a />');
+        $("div.paging span a:contains('<< previous')").html('Prev').css('border-left-width', '1px').css('border-radius', '3px 0 0 3px');
+        $("div.paging span a:contains('next >>')").html('Next').css('border-radius', '0 3px 3px 0');
+        $("div.paging").addClass("pagination").css('color', 'white');
 
         /*
          * The rest of the jQuery listeners were borrowed from:
