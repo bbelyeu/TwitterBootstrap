@@ -1,11 +1,11 @@
-CakePhp 1.3 Plugin for Twitter Bootstrap
+CakePhp 2.x Plugin for Twitter Bootstrap
 
 The plugin adds two elements.
 1. For including the bootstrap css in the html head
 2. For including the bootstrap js at the bottom of your html
 
-Clone this plugin in your app/plugins folder, then use the element
+Clone this plugin in your app/Plugins folder, then use the element
 in any view file.
 
 Link for help using the plugins elements:
-http://book.cakephp.org/1.3/en/view/1081/Elements
+http://book.cakephp.org/2.0/en/plugins.html
