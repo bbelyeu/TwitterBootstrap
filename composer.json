@@ -4,7 +4,6 @@
     "description": "CakePhp Plugin for Twitter Bootstraping",
     "keywords": ["cakephp","twitter","bootstrap"],
     "homepage": "https://github.com/bbelyeu/TwitterBootstrap",
-    "version": "1.0.1",
     "license": "GPL",
     "authors": [
         {
