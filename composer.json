@@ -1,0 +1,19 @@
+{
+    "name": "bbelyeu/TwitterBootstrap",
+    "type": "plugin",
+    "description": "CakePhp Plugin for Twitter Bootstraping",
+    "keywords": ["cakephp","twitter","bootstrap"],
+    "homepage": "https://github.com/bbelyeu/TwitterBootstrap",
+    "version": "1.0.0",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Brad Belyeu",
+            "email": "bradleylamar@gmail.com",
+            "homepage": "http://www.brandrea.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
