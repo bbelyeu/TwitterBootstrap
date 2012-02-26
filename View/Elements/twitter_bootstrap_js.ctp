@@ -12,6 +12,8 @@
         $("div.actions > ul").addClass("nav nav-list");
         $("div.actions > ul > li > a:contains('New')").prepend('<i class="icon-plus"></i>');
         $("div.actions > ul > li > a:contains('List')").prepend('<i class="icon-th-list"></i>');
+        $("div.actions > ul > li > a:contains('Edit')").prepend('<i class="icon-pencil"></i>');
+        $("div.actions > ul > li > a:contains('Delete')").prepend('<i class="icon-remove"></i>');
         $("div.actions > ul").prepend('<li class="nav-header">Actions</li>');
 
         // Alter the cake default pagination
