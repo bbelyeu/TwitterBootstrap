@@ -1,0 +1,31 @@
+#footer {
+    padding: 10px 20px;
+}
+footer ul {
+    list-style: none outside none;
+    float: left;
+}
+footer ul li {
+    display: inline;
+}
+dt, dd {
+    line-height: 2em;
+}
+dd {
+    margin-left: 10em;
+}
+#flashMessage, #authMessage {
+    color: white;
+}
+.pagination a { 
+    border-width: 1px;
+}
+.paging .current, .paging .disabled, .paging a { 
+    padding: 0 14px;
+}
+.pagination span.disabled, .pagination span.current {
+    padding: 0 !important;
+}
+form div {
+    margin-bottom:0;
+}
