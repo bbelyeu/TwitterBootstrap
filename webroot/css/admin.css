@@ -29,3 +29,6 @@ dd {
 form div {
     margin-bottom:0;
 }
+.datetime-field {
+    width: 100px;
+}
