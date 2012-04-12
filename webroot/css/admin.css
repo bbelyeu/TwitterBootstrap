@@ -32,3 +32,6 @@ form div {
 .datetime-field {
     width: 100px;
 }
+select[multiple] {
+    width:50%;
+}
