@@ -33,5 +33,8 @@ form div {
     width: 100px;
 }
 select[multiple] {
-    width:50%;
+    width:400px;
+}
+textarea {
+    width: 400px;
 }
