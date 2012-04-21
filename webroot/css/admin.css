@@ -15,7 +15,7 @@ dd {
     margin-left: 10em;
 }
 #flashMessage, #authMessage {
-    color: white;
+    color: #eee;
 }
 .pagination a { 
     border-width: 1px;
