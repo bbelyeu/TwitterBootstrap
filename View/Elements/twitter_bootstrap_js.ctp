@@ -1,10 +1,14 @@
 	<script type="text/javascript" src="/twitter_bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/twitter_bootstrap/js/bootstrap-alert.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         // If a flash message exists - style it
         $("#flashMessage").addClass("alert");
+        $(".alert").alert();
         $("#flashMessage:contains('deleted')").addClass("alert-error");
+        $(".alert-error").alert();
         $("#flashMessage:contains('saved')").addClass("alert-success");
+        $(".alert-success").alert();
 
         // For actions div in admin
         $("div.actions").addClass("well");
