@@ -3,12 +3,11 @@
     <script type="text/javascript">
     $(document).ready(function() {
         // If a flash message exists - style it
-        $("#flashMessage").addClass("alert");
+        $("#flashMessage").addClass("alert fade in");
+        $("#flashMessage:contains('deleted')").addClass("alert-error fade in");
+        $("#flashMessage:contains('saved')").addClass("alert-success fade in");
+        $(".alert").prepend('<a class="close" data-dismiss="alert" href="#">&times;</a>');
         $(".alert").alert();
-        $("#flashMessage:contains('deleted')").addClass("alert-error");
-        $(".alert-error").alert();
-        $("#flashMessage:contains('saved')").addClass("alert-success");
-        $(".alert-success").alert();
 
         // For actions div in admin
         $("div.actions").addClass("well");
