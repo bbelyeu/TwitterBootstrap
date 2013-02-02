@@ -15,3 +15,4 @@ Steps to install:
 
 Link for help using the plugins elements:
 http://book.cakephp.org/2.0/en/plugins.html
+http://book.cakephp.org/2.0/en/views.html#requesting-elements-from-a-plugin
