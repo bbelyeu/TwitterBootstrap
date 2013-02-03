@@ -1,5 +1,4 @@
 	<script type="text/javascript" src="/twitter_bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="/twitter_bootstrap/js/bootstrap-alert.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         // If a flash message exists - style it
