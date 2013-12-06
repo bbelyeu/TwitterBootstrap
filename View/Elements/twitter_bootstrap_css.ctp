@@ -1,2 +1,1 @@
-	<link href="/twitter_bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/twitter_bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">

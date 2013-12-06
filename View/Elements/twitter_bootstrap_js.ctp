@@ -1,4 +1,4 @@
-	<script type="text/javascript" src="/twitter_bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         // If a flash message exists - style it
