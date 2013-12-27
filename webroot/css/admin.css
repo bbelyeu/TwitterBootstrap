@@ -38,3 +38,9 @@ select[multiple] {
 textarea {
     width: 400px;
 }
+#header a, #footer a {
+    color: #777;
+}
+div.form, div.index, div.view {
+    width: 83%;
+}
